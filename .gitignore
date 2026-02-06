@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Colab / notebooks outputs
+*.log
+*.tmp
+
+# Model weights & adapters (uploaded separately)
+artifacts/adapters/*
+!artifacts/adapters/.gitkeep
+
+# Large generated files
+artifacts/logs/
+artifacts/metrics/*.csv
+artifacts/screenshots/*.png
+
+# Hugging Face cache
+.cache/
+hf_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+ui/gradio_app/__pycache__/
