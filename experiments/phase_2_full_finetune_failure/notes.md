@@ -1,10 +1,8 @@
-## Phase 2: Full Fine-Tuning Failure
+## Result
 
-- Attempted full fine-tuning of gpt2-medium
-- GPU: Tesla T4 (15GB)
-- Training failed with CUDA OOM
-- Even batch size = 2 is not viable
-- Confirms full fine-tuning is impractical on limited hardware
+Full fine-tuning fails before training due to an empty instruction dataset.
 
-Conclusion:
-Full fine-tuning does not scale. Parameter-efficient methods are required.
+This demonstrates how brittle full fine-tuning pipelines are: training cannot
+even begin without a perfectly prepared dataset.
+
+This failure is intentional and motivates Phase 3 (LoRA fine-tuning).
