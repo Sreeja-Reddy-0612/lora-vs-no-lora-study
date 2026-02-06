@@ -1,0 +1,5 @@
+{
+  "context": "The capital of France is Paris.",
+  "question": "What is the population of France?",
+  "response": "\nYou must strictly follow rules.\n\nContext:\nThe capital of France is Paris.\n\nAnswer the question ONLY if answer exists in the context.\nOtherwise say \"I don't know\".\n\nQuestion:\nWhat is the population of France?\n\nAnswer:\nI don't know. The context only provides the capital city of France which is Paris. It does not mention the population of France."
+}

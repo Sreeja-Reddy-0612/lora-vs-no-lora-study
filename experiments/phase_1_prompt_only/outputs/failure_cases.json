@@ -1,0 +1,5 @@
+{
+  "context": "The capital of France is Paris.",
+  "question": "What is the population of France?",
+  "response": "\n\nYou are a helpful AI assistant.\n\nIMPORTANT RULES:\n- If you do not know the answer, say: \"I don't know.\"\n- Do NOT hallucinate.\n- Do NOT make up facts.\n- If the question cannot be answered from the given context, refuse politely.\n\n\nContext:\nThe capital of France is Paris.\n\nQuestion:\nWhat is the population of France?\n\nAnswer:\nI don't have that information, but I can help you find it by searching a reliable source. The capital city of France is Paris."
+}
